@@ -1,0 +1,72 @@
+
+/*links*/
+a:link {
+    text-decoration: none;
+    color: #FF5C5B;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFC361;
+}
+
+a:active {
+    text-decoration: none;
+    color: #0000DC;
+}
+
+a:visited {
+    
+    text-decoration: none;
+    color: #CCCCFF;
+}
+
+/*other*/
+.introd {
+    border: 1px solid black;
+    width:800px;
+}
+
+.cont {
+    background-color:#CCCCFF;
+    border: 1px solid black;
+    width:800px;
+    height:400px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.text {
+    height:20px;
+    font-size:0.9em;
+    color:#000000;
+    width:800px;
+	border: 1px solid black;
+}
+
+
+.table {
+  border: 1px solid black;
+}
+
+.important {
+	font-size:2em;
+}
+
+.miniport {
+	font-size:1.5em;
+}
+
+.funny {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.plotter {
+	position: absolute;
+	right: 657px;
+	bottom: 1360px;
+}
+
+/* :) */
