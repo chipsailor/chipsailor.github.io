@@ -44,6 +44,19 @@ a:visited {
 	max-height:400px;
 }
 
+.simplex {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    background-color:#FFCED5;
+    border: 1px solid black;
+    width:400px;
+    height:200px;
+    vertical-align:top;
+    text-align:left;
+	table-layout: fixed;
+	max-width:400px;
+	max-height:200px;
+}
+
 .text {
 	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
     height:20px;

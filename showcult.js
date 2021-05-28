@@ -15,7 +15,7 @@ function ShowCult()
 		'Now I will try the SuperDuper.',
 		'Not at all!',
 		'My food is burned, What are you wearing?',
-		'Turn them lights off!',
+		"Turn them lights off! Is it supposed to be 'trippy'?",
 		'I have three friends. These are problems.',
 		'¡Larga vida al auto que tiene 20 años!',
 		"You're really not very useful.",
