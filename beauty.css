@@ -39,6 +39,7 @@ a:visited {
     height:400px;
     vertical-align:top;
     text-align:left;
+	table-layout: fixed;
 }
 
 .text {
@@ -53,7 +54,6 @@ a:visited {
 
 .table {
   border: 2px solid black;
-  table-layout: fixed;
 }
 
 .important {
