@@ -40,6 +40,8 @@ a:visited {
     vertical-align:top;
     text-align:left;
 	table-layout: fixed;
+	max-width:800px;
+	max-height:400px;
 }
 
 .text {
@@ -54,6 +56,8 @@ a:visited {
 
 .table {
   border: 2px solid black;
+  table-layout: fixed;
+  
 }
 
 .important {
