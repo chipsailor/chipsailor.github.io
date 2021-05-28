@@ -1,0 +1,87 @@
+TD		    {FONT-FAMILY: Tahoma, Verdana,Helvetica; FONT-SIZE: 12px}
+BODY		{FONT-FAMILY: Tahoma, Verdana,Helvetica; FONT-SIZE: 12px; COLOR : #00ff00;}
+P		    {FONT-FAMILY: Tahoma, Verdana,Helvetica; FONT-SIZE: 12px}
+DIV		    {FONT-FAMILY: Tahoma, Verdana,Helvetica; FONT-SIZE: 12px}
+BODY        {BACKGROUND-COLOR: #ffffff; MARGIN-TOP : 0; MARGIN-RIGHT : 0; MARGIN-BOTTOM : 0; MARGIN-LEFT : 0; PADDING-TOP : 0; PADDING-RIGHT : 0; PADDING-BOTTOM : 0; PADDING-LEFT : 0;}
+A:link      {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #000000; TEXT-DECORATION : underline;} 
+A:visited   {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #000000; TEXT-DECORATION : underline;} 
+A:hover     {
+	FONT-FAMILY: Tahoma, Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	COLOR : blue;
+	BACKGROUND-COLOR : #000000;
+	TEXT-DECORATION : none;
+} 
+A:active    {FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR :#000000; TEXT-DECORATION : underline;}
+
+.newsline    { BACKGROUND-repeat : repeat-x; BACKGROUND-position : 0% 50%;BACKGROUND-COLOR : transparent;} 
+.linevertical { BACKGROUND-repeat : repeat-y; BACKGROUND-position : 100% 0%;}
+
+.news-title  {FONT-FAMILY: Tahoma, Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; font-STYLE : normal; FONT-WEIGHT : bold; COLOR : #000000;  BACKGROUND-repeat : repeat; BACKGROUND-position : 0% 0%; text-align : LEFT; vertical-align : middle;}
+.news-title A:link {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #000000; FONT-WEIGHT : bold; TEXT-DECORATION : underline;} 
+.news-title A:visited {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #000000; FONT-WEIGHT : bold;TEXT-DECORATION : underline;} 
+.news-title A:hover {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #000000;FONT-WEIGHT : bold;BACKGROUND-COLOR : #ffffff; TEXT-DECORATION : none;} 
+.news-title A:active {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : red;FONT-WEIGHT : bold; TEXT-DECORATION : underline; }
+
+.head-line {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; font-STYLE : normal; FONT-WEIGHT : bold; COLOR : #000000; vertical-align : middle; BORDER-COLOR : Blue;  BACKGROUND-repeat : repeat-x; BACKGROUND-position : 0% 100%; BORDER-STYLE : solid; BORDER-TOP-WIDTH : 2px; BORDER-RIGHT-width : 0; BORDER-BOTTOM-width : 2px; BORDER-LEFT-width : 0;}
+.head-line A:link {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #306498; TEXT-DECORATION : none;} 
+.head-line A:visited {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 12px; COLOR : #306498; TEXT-DECORATION : none}
+.head-line A:hover {
+	FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	COLOR : #FF00CC;
+	BACKGROUND-COLOR : #99FF66;
+	TEXT-DECORATION : none;
+} 
+.head-line A:active {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 11px; COLOR : blue; TEXT-DECORATION : none;}  
+
+.boxin     {
+	FONT-FAMILY : Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : normal;
+	COLOR : #FF0066;
+} 
+.boxin A:link    {
+	FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : normal;
+	COLOR : BLUE;
+	TEXT-DECORATION : none;
+} 
+.boxin A:visited {
+	FONT-FAMILY:Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : normal;
+	COLOR : Maroon;
+	TEXT-DECORATION : none;
+} 
+.boxin A:hover   {
+	FONT-FAMILY:Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : normal;
+	COLOR : #CC6633;
+	BACKGROUND-COLOR : #FF0033;
+	TEXT-DECORATION : none;
+} 
+.boxin A:active  {FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif; FONT-SIZE : 11px; FONT-WEIGHT : normal; COLOR : red; TEXT-DECORATION : none; }
+INPUT     {
+	BACKGROUND-COLOR: #6898D0;
+	COLOR : Black;
+	FONT-FAMILY : Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : normal;
+	BORDER-COLOR : #306498;
+	BORDER-TOP-WIDTH : 1px;
+	BORDER-RIGHT-width : 1px;
+	BORDER-BOTTOM-width : 1px;
+	BORDER-LEFT-width : 1px;
+	text-indent : 3px;
+} 
+SELECT    {
+	BACKGROUND-COLOR: #6898D0;
+	COLOR : Black;
+	FONT-FAMILY : Tahoma, Verdana, arial, Helvetica, sans-serif;
+	FONT-SIZE : 12px;
+	FONT-WEIGHT : bold;
+}
+
