@@ -98,33 +98,33 @@ a:visited {
 	color: transparent ;
 }
 
-@keyframes lustful {
+@keyframes purpole {
     0% { background-position: 0; }
     100% { background-position: -6000px; }
 }
 
-.lustful {
-	animation: 60s infinite linear lustful;
+.purpole {
+	animation: 60s infinite linear purpole;
 	background: linear-gradient(90deg, #8800ff, #E04880, #b66bec, #FF1493 );
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent ;
 }
 
-@keyframes tentacle {
+@keyframes dess {
     0% { background-position: 0; }
     100% { background-position: -6000px; }
 }
 
-.tentacle {
-	animation: 60s infinite linear tentacle;
+.dess {
+	animation: 60s infinite linear dess;
 	background: linear-gradient(90deg, #8800ff, #8800ff, #8800ff, #8800ff, #8800ff, #FF1493 );
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent ;
 }
 
-.wraith {
+.water {
 	background: #f1f1db;
 	text-shadow: 0 0 32px #8800ff;
 	background-clip: text;
