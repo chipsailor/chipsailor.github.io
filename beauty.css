@@ -91,7 +91,7 @@ a:visited {
 }
 
 .rainbow {
-	animation: 60s infinite linear rainbow;
+	animation: 2s infinite linear rainbow;
 	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
 	background-clip: text;
 	-webkit-background-clip: text;
