@@ -59,14 +59,14 @@ a:visited {
 
 .temple {
 	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
-    background-color:#d0ff00;
+    background-color:#e3ff67;
     border: 1px solid rgb(97, 0, 81);
-    width:300px;
+    width:500px;
     height:800px;
     vertical-align:top;
     text-align:center;
 	table-layout: fixed;
-	max-width:300px;
+	max-width:500px;
 }
 
 .textlock {
