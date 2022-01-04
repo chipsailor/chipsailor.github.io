@@ -60,7 +60,7 @@ a:visited {
 .temple {
 	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
     background-color:#d0ff00;
-    border: 3px solid rgb(97, 0, 81);
+    border: 1px solid rgb(97, 0, 81);
     width:300px;
     height:800px;
     vertical-align:top;
