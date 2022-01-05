@@ -1,5 +1,5 @@
   body {
-      background: linear-gradient(#23d580, #ceff74, #ff00ea, #23a6d5, #23d580);
+      background: linear-gradient(0deg, #23d580, #ceff74, #ff00ea, #23a6d5, #23d580);
       background-size: 100% 100%;
       animation: tfward 15s ease infinite;
   }
