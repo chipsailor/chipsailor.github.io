@@ -18,15 +18,15 @@
 }
 
 
-  .harabox1 {
+.harabox1 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    background-color:#000000;
-    border: 2px solid rgb(255, 255, 255);
-    width:700px;
-    height:200px;
-    vertical-align:top;
-    text-align:left;
+  color: #ffffff;
+  background-color:#000000;
+  border: 2px solid rgb(255, 255, 255);
+  width:700px;
+  height:200px;
+  vertical-align:top;
+  text-align:left;
 	table-layout: fixed;
 	max-width:700px;
 	max-height:200px;
