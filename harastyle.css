@@ -3,23 +3,24 @@ html, body {
     height:100%;
   }
   
-  body {
-      background: linear-gradient(1deg, #ceff74, #ff00ea, #23a6d5, #23d580);
-      background-size: 400% 400%;
-      animation: tfward 15s ease infinite;
-  }
-  
-  @keyframes tfward {
-      0% {
-          background-position: 50% 0%;
-      }
-      50% {
-          background-position: 50% 100%;
-      }
-      100% {
-          background-position: 50% 100%;
-      }
-  }
+  .css-selector {
+    background: linear-gradient(181deg, #ceff74, #ff00ea, #23a6d5, #23d580);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
 
   .harabox1 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
