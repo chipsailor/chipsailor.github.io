@@ -4,20 +4,20 @@ html, body {
   }
   
   body {
-      background: linear-gradient(90deg, #ceff74, #ff00ea, #23a6d5, #23d5ab);
+      background: linear-gradient(90deg, #ceff74, #ff00ea, #23a6d5, #23d580);
       background-size: 400% 400%;
       animation: tfward 15s ease infinite;
   }
   
   @keyframes tfward {
       0% {
-          background-position: 0% 50%;
+          background-position: 50% 0%;
       }
       50% {
-          background-position: 100% 50%;
+          background-position: 50% 100%;
       }
       100% {
-          background-position: 0% 50%;
+          background-position: 50% 100%;
       }
   }
 
@@ -25,7 +25,7 @@ html, body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     background-color:#000000;
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     width:800px;
     height:400px;
     vertical-align:top;
@@ -36,11 +36,12 @@ html, body {
 }
 
 .typesystem {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: .13em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
