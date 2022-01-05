@@ -1,20 +1,22 @@
-  body {
-      background: linear-gradient(0deg, #23d580, #ceff74, #ff00ea, #23a6d5, #23d580);
-      background-size: 100% 100%;
-      animation: tfward 15s ease infinite;
-  }
-  
-  @keyframes tfward {
-      0% {
-          background-position: 50% 0%;
-      }
-      50% {
-          background-position: 50% 100%;
-      }
-      100% {
-          background-position: 50% 100%;
-      }
-  }
+.tscbg {
+  background: linear-gradient(180deg, #23d580, #ceff74, #ff00ea, #23a6d5, #23d580);
+  background-size: 400% 400%;
+
+  -webkit-animation: tscesanim 21s ease infinite;
+  animation: tscesanim 21s ease infinite;
+}
+
+@-webkit-keyframes tscesanim {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@keyframes tscesanim {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+
 
   .harabox1 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
