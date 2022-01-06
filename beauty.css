@@ -112,6 +112,15 @@ a:visited {
     100% { background-position: -6000px; }
 }
 
+
+.rainbow {
+	animation: 60s infinite linear rainbow;
+	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
 .rainbowborder {
 	animation: 60s infinite linear rainbowborder;
 	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
@@ -126,12 +135,19 @@ a:visited {
     100% { background-position: -6000px; }
 }
 
-.rainbow {
-	animation: 60s infinite linear rainbow;
+
+.rainbowbordersmall {
+	animation: 60s infinite linear rainbowbordersmall;
 	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
 	background-clip: text;
+	-webkit-text-stroke: 1px black;
 	-webkit-background-clip: text;
 	color: transparent ;
+}
+
+@keyframes rainbowbordersmall {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
 }
 
 @keyframes purpole {
