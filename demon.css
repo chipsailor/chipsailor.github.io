@@ -1,0 +1,375 @@
+
+/*links*/
+a:link {
+    font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+	text-decoration: none;
+    color: #FF5C5B;
+}
+
+a:hover {
+    font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+	text-decoration: none;
+    color: #FFC361;
+}
+
+a:active {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0000DC;
+}
+
+a:visited {
+    font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ff6600;
+}
+
+/*other*/
+.introd {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    width:800px;
+}
+
+.cont {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    background-color:#CCCCFF;
+    border: 1px solid black;
+    width:800px;
+    height:400px;
+    vertical-align:top;
+    text-align:left;
+	table-layout: fixed;
+	max-width:800px;
+	max-height:400px;
+}
+
+.lockbox {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    background-color:#220030;
+    border: 1px solid rgb(255, 0, 0);
+    width:800px;
+    height:400px;
+    vertical-align:top;
+    text-align:left;
+	table-layout: fixed;
+	max-width:800px;
+	max-height:400px;
+}
+
+.textlock {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    height:20px;
+    font-size:0.9em;
+    color:#f1ffa0;
+    width:800px;
+	border: 1px solid black;
+}
+
+.simplex {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    background-color:#FFCED5;
+    border: 1px solid black;
+    width:400px;
+    height:200px;
+    vertical-align:top;
+    text-align:left;
+	table-layout: fixed;
+	max-width:400px;
+	max-height:200px;
+}
+
+.text {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    height:20px;
+    font-size:0.9em;
+    color:#000000;
+    width:800px;
+	border: 1px solid black;
+}
+
+/* fuck browser please conform to colour standards */
+.peatowit {
+	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
+    height:20px;
+    font-size:0.9em;
+    color:#000000;
+    width:800px;
+	border: 1px solid black;
+}
+
+/* not sure what these do */
+.unknowy {
+	background-color: #400;
+	background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%), linear-gradient(0deg, rgba(200,0,0,.5) 50%, transparent 50%);
+	background-size: 12px 12px;
+	background-position: -2px 4px;
+	box-shadow: inset 0px 0px 0px 2px #400;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+
+.rainbow {
+	animation: 60s infinite linear rainbow;
+	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
+.rainbowborder {
+	animation: 60s infinite linear rainbowborder;
+	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
+	background-clip: text;
+	-webkit-text-stroke: 1px black;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
+@keyframes rainbowborder {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+
+.rainbowbordersmall {
+	animation: 60s infinite linear rainbowbordersmall;
+	background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #0088ff, #0000ff, #8800ff, #ff0000);
+	background-clip: text;
+	-webkit-text-stroke: 1px black;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
+@keyframes rainbowbordersmall {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+@keyframes purpole {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+.purpole {
+	animation: 60s infinite linear purpole;
+	background: linear-gradient(90deg, #8800ff, #E04880, #b66bec, #FF1493 );
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
+@keyframes dess {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+.dess {
+	animation: 60s infinite linear dess;
+	background: linear-gradient(90deg, #8800ff, #8800ff, #8800ff, #8800ff, #8800ff, #FF1493 );
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
+.water {
+	background: #f1f1db;
+	text-shadow: 0 0 32px #8800ff;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+/* not sure what these do */
+
+@keyframes flicker {
+    0% {
+      opacity: 0.27861;
+    }
+    5% {
+      opacity: 0.34769;
+    }
+    10% {
+      opacity: 0.23604;
+    }
+    15% {
+      opacity: 0.90626;
+    }
+    20% {
+      opacity: 0.18128;
+    }
+    25% {
+      opacity: 0.83891;
+    }
+    30% {
+      opacity: 0.65583;
+    }
+    35% {
+      opacity: 0.67807;
+    }
+    40% {
+      opacity: 0.26559;
+    }
+    45% {
+      opacity: 0.84693;
+    }
+    50% {
+      opacity: 0.96019;
+    }
+    55% {
+      opacity: 0.08594;
+    }
+    60% {
+      opacity: 0.20313;
+    }
+    65% {
+      opacity: 0.71988;
+    }
+    70% {
+      opacity: 0.53455;
+    }
+    75% {
+      opacity: 0.37288;
+    }
+    80% {
+      opacity: 0.71428;
+    }
+    85% {
+      opacity: 0.70419;
+    }
+    90% {
+      opacity: 0.7003;
+    }
+    95% {
+      opacity: 0.36108;
+    }
+    100% {
+      opacity: 0.24387;
+    }
+  }
+  @keyframes textShadow {
+    0% {
+      text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    5% {
+      text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    10% {
+      text-shadow: 0.02956275843481219px 0 1px rgba(0,30,255,0.5), -0.02956275843481219px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    15% {
+      text-shadow: 0.40218538552878136px 0 1px rgba(0,30,255,0.5), -0.40218538552878136px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    20% {
+      text-shadow: 3.4794037899852017px 0 1px rgba(0,30,255,0.5), -3.4794037899852017px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    25% {
+      text-shadow: 1.6125630401149584px 0 1px rgba(0,30,255,0.5), -1.6125630401149584px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    30% {
+      text-shadow: 0.7015590085143956px 0 1px rgba(0,30,255,0.5), -0.7015590085143956px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    35% {
+      text-shadow: 3.896914047650351px 0 1px rgba(0,30,255,0.5), -3.896914047650351px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    40% {
+      text-shadow: 3.870905614848819px 0 1px rgba(0,30,255,0.5), -3.870905614848819px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    45% {
+      text-shadow: 2.231056963361899px 0 1px rgba(0,30,255,0.5), -2.231056963361899px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    50% {
+      text-shadow: 0.08084290417898504px 0 1px rgba(0,30,255,0.5), -0.08084290417898504px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    55% {
+      text-shadow: 2.3758461067427543px 0 1px rgba(0,30,255,0.5), -2.3758461067427543px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    60% {
+      text-shadow: 2.202193051050636px 0 1px rgba(0,30,255,0.5), -2.202193051050636px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    65% {
+      text-shadow: 2.8638780614874975px 0 1px rgba(0,30,255,0.5), -2.8638780614874975px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    70% {
+      text-shadow: 0.48874025155497314px 0 1px rgba(0,30,255,0.5), -0.48874025155497314px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    75% {
+      text-shadow: 1.8948491305757957px 0 1px rgba(0,30,255,0.5), -1.8948491305757957px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    80% {
+      text-shadow: 0.0833037308038857px 0 1px rgba(0,30,255,0.5), -0.0833037308038857px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    85% {
+      text-shadow: 0.09769827255241735px 0 1px rgba(0,30,255,0.5), -0.09769827255241735px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    90% {
+      text-shadow: 3.443339761481782px 0 1px rgba(0,30,255,0.5), -3.443339761481782px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    95% {
+      text-shadow: 2.1841838852799786px 0 1px rgba(0,30,255,0.5), -2.1841838852799786px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    100% {
+      text-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+  }
+  .crt::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+  }
+  .crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
+  .crt {
+    animation: textShadow 1.6s infinite;
+  }
+
+.table {
+  border: 2px solid black;
+  table-layout: fixed;
+  
+}
+
+.important {
+	font-size:2em;
+}
+
+.miniport {
+	font-size:1.5em;
+}
+
+.funny {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.plotter {
+	position: absolute;
+	right: 657px;
+	bottom: 1360px;
+}
+
+/* :) */
