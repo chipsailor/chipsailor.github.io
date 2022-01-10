@@ -186,7 +186,7 @@ a:visited {
 /* not sure what these do */
 
 .tscbg {
-    background: linear-gradient(180deg, #23d580, #ceff74, #ff00ea, #23a6d5, #23d580);
+    background: linear-gradient(180deg, #000000, #00ff22, #ff008c, #000000,);
     background-size: 400% 400%;
   
     -webkit-animation: tscesanim 21s ease infinite;
