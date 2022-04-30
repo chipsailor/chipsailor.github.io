@@ -163,6 +163,19 @@ a:visited {
 	color: transparent ;
 }
 
+@keyframes clint {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+.clint {
+	animation: 60s infinite linear purpole;
+	background: linear-gradient(90deg, #ff0000, #ff3d3d, #ec6b6b, #ff1414 );
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
 @keyframes dess {
     0% { background-position: 0; }
     100% { background-position: -6000px; }
