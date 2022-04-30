@@ -169,7 +169,7 @@ a:visited {
 }
 
 .clint {
-	animation: 60s infinite linear purpole;
+	animation: 60s infinite linear clint;
 	background: linear-gradient(90deg, #ff0000, #ff3d3d, #ec6b6b, #ff1414 );
 	background-clip: text;
 	-webkit-background-clip: text;
