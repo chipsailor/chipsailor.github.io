@@ -214,8 +214,8 @@ a:visited {
 
 .funny {
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	right: 10px;
+	bottom: 10px;
 	-webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
