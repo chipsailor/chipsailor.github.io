@@ -198,7 +198,6 @@ a:visited {
 	animation: 60s infinite linear dess;
 	background: linear-gradient(90deg, #A9A60D, #DC6C4C, #5BA858, #FFFFFF, #BF6051, #A6638C );
 	background-clip: text;
-	-webkit-text-stroke: 1px black;
 	-webkit-background-clip: text;
 	color: transparent ;
 }
