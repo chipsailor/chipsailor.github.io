@@ -189,6 +189,20 @@ a:visited {
 	color: transparent ;
 }
 
+@keyframes benf {
+    0% { background-position: 0; }
+    100% { background-position: -6000px; }
+}
+
+.benf {
+	animation: 60s infinite linear dess;
+	background: linear-gradient(90deg, #A9A60D, #DC6C4C, #5BA858, #FFFFFF, #BF6051, #A6638C );
+	background-clip: text;
+	-webkit-text-stroke: 1px black;
+	-webkit-background-clip: text;
+	color: transparent ;
+}
+
 .water {
 	background: #f1f1db;
 	text-shadow: 0 0 32px #8800ff;
