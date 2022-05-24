@@ -46,15 +46,9 @@ a:visited {
 
 .benefit {
 	font-family: Tahoma, Verdana, arial, Helvetica, sans-serif;
-    background-color:#CCCCFF;
-    border: 1px solid black;
-    width:800px;
-    height:400px;
     vertical-align:top;
     text-align:left;
 	table-layout: fixed;
-	max-width:800px;
-	max-height:400px;
 }
 
 .lockbox {
