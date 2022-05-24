@@ -213,7 +213,7 @@ a:visited {
 }
 
 .funny {
-	position: absolute;
+	position: fixed;
 	right: 10px;
 	bottom: 10px;
 	-webkit-animation:spin 4s linear infinite;
