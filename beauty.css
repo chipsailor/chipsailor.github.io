@@ -196,7 +196,7 @@ a:visited {
 
 .benf {
 	animation: 60s infinite linear dess;
-	background: linear-gradient(90deg, #A9A60D, #DC6C4C, #5BA858, #FFFFFF, #BF6051, #A6638C );
+	background: linear-gradient(90deg, #A9A60D, #DC6C4C, #5BA858, #FFFFFF, #BF6051, #A6638C, #A9A60D );
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent ;
